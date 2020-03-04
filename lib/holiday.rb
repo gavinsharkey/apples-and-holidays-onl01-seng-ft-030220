@@ -1,7 +1,7 @@
 require 'pry'
 
 def titlecase(string)
-  array = string.split(' ').map { |word| word.upcase }
+  array = string.split(' ').map { |word| word.capitalize }
   array.join(' ')
 end
 
